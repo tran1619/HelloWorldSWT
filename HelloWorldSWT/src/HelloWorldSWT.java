@@ -8,7 +8,7 @@ public class HelloWorldSWT {
 		// TODO Auto-generated method stub
 		Display display = new Display();
 		Shell shell = new Shell(display);
-		shell.setText("Hello World");
+		shell.setText("Hello World!");
 		shell.open();
 		while(!shell.isDisposed()) {
 			if(!display.readAndDispatch())
